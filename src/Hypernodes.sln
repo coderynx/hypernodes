@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Processing.Node", "Hypernodes.Processing.Node\Hypernodes.Processing.Node.csproj", "{91EAE104-33A4-4121-9CB9-093E7F7A4701}"
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.FFMpeg.Engine", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Web.Api", "Hypernodes.Web.Api\Hypernodes.Web.Api.csproj", "{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperNodes.DataAccess", "HyperNodes.DataAccess\HyperNodes.DataAccess.csproj", "{74E5563D-DE95-47C4-A421-6613C57E0625}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.DataAccess", "Hypernodes.DataAccess\Hypernodes.DataAccess.csproj", "{74E5563D-DE95-47C4-A421-6613C57E0625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
