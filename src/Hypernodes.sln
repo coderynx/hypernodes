@@ -1,17 +1,20 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Processing.Node", "Hypernodes.Processing.Node\Hypernodes.Processing.Node.csproj", "{91EAE104-33A4-4121-9CB9-093E7F7A4701}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypernodes.Processing.Node", "Hypernodes.Processing.Node\Hypernodes.Processing.Node.csproj", "{91EAE104-33A4-4121-9CB9-093E7F7A4701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Processing.DeveloperTerminal", "Hypernodes.Processing.DeveloperTerminal\Hypernodes.Processing.DeveloperTerminal.csproj", "{D21A33A4-9414-4C91-8B36-2F8EA41C4580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypernodes.Processing.DeveloperTerminal", "Hypernodes.Processing.DeveloperTerminal\Hypernodes.Processing.DeveloperTerminal.csproj", "{D21A33A4-9414-4C91-8B36-2F8EA41C4580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Core", "Hypernodes.Core\Hypernodes.Core.csproj", "{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypernodes.Core", "Hypernodes.Core\Hypernodes.Core.csproj", "{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.FFMpeg.Engine", "Hypernodes.FFMpeg.Engine\Hypernodes.FFMpeg.Engine.csproj", "{5510C056-A5B0-4FB3-A054-690A6E4EFC49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypernodes.FFMpeg.Engine", "Hypernodes.FFMpeg.Engine\Hypernodes.FFMpeg.Engine.csproj", "{5510C056-A5B0-4FB3-A054-690A6E4EFC49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Web.Api", "Hypernodes.Web.Api\Hypernodes.Web.Api.csproj", "{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypernodes.Web.Api", "Hypernodes.Web.Api\Hypernodes.Web.Api.csproj", "{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.DataAccess", "Hypernodes.DataAccess\Hypernodes.DataAccess.csproj", "{74E5563D-DE95-47C4-A421-6613C57E0625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypernodes.DataAccess", "Hypernodes.DataAccess\Hypernodes.DataAccess.csproj", "{74E5563D-DE95-47C4-A421-6613C57E0625}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hypernodes-webclient", "hypernodes-webclient\hypernodes-webclient.esproj", "{40DE7D3E-EA17-4935-892C-0588953F5FE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,5 +46,17 @@ Global
 		{74E5563D-DE95-47C4-A421-6613C57E0625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E5563D-DE95-47C4-A421-6613C57E0625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E5563D-DE95-47C4-A421-6613C57E0625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DE7D3E-EA17-4935-892C-0588953F5FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DE7D3E-EA17-4935-892C-0588953F5FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DE7D3E-EA17-4935-892C-0588953F5FE9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{40DE7D3E-EA17-4935-892C-0588953F5FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DE7D3E-EA17-4935-892C-0588953F5FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DE7D3E-EA17-4935-892C-0588953F5FE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33C21425-D8EB-4F00-8D3A-ACD00F0ED6D9}
 	EndGlobalSection
 EndGlobal
