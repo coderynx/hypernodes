@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cocona" Version="2.0.3" />
+      <PackageReference Include="Microsoft.Orleans.Core" Version="3.6.0" />
+      <PackageReference Include="Spectre.Console" Version="0.43.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Hypernodes.Core\Hypernodes.Core.csproj" />
+      <ProjectReference Include="..\Hypernodes.FFMpeg.Engine\Hypernodes.FFMpeg.Engine.csproj" />
+    </ItemGroup>
+
+</Project>

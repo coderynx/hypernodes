@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Processing.Node", "Hypernodes.Processing.Node\Hypernodes.Processing.Node.csproj", "{91EAE104-33A4-4121-9CB9-093E7F7A4701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Processing.DeveloperTerminal", "Hypernodes.Processing.DeveloperTerminal\Hypernodes.Processing.DeveloperTerminal.csproj", "{D21A33A4-9414-4C91-8B36-2F8EA41C4580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Core", "Hypernodes.Core\Hypernodes.Core.csproj", "{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.FFMpeg.Engine", "Hypernodes.FFMpeg.Engine\Hypernodes.FFMpeg.Engine.csproj", "{5510C056-A5B0-4FB3-A054-690A6E4EFC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypernodes.Web.Api", "Hypernodes.Web.Api\Hypernodes.Web.Api.csproj", "{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperNodes.DataAccess", "HyperNodes.DataAccess\HyperNodes.DataAccess.csproj", "{74E5563D-DE95-47C4-A421-6613C57E0625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91EAE104-33A4-4121-9CB9-093E7F7A4701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EAE104-33A4-4121-9CB9-093E7F7A4701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EAE104-33A4-4121-9CB9-093E7F7A4701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EAE104-33A4-4121-9CB9-093E7F7A4701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21A33A4-9414-4C91-8B36-2F8EA41C4580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21A33A4-9414-4C91-8B36-2F8EA41C4580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21A33A4-9414-4C91-8B36-2F8EA41C4580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21A33A4-9414-4C91-8B36-2F8EA41C4580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED19A2CA-A52D-4306-A4DE-1BC675D82D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5510C056-A5B0-4FB3-A054-690A6E4EFC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5510C056-A5B0-4FB3-A054-690A6E4EFC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5510C056-A5B0-4FB3-A054-690A6E4EFC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5510C056-A5B0-4FB3-A054-690A6E4EFC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CB3D47-028B-47BF-8644-5C01C3F0C3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E5563D-DE95-47C4-A421-6613C57E0625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E5563D-DE95-47C4-A421-6613C57E0625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E5563D-DE95-47C4-A421-6613C57E0625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E5563D-DE95-47C4-A421-6613C57E0625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

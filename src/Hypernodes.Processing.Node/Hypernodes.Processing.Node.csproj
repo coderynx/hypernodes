@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-MediaBound-6A74F19A-B649-4F47-8986-9A9C03BE1C5F</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(RunConfiguration)' == 'MediaBound' ">
+      <ExternalConsole>true</ExternalConsole>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Ardalis.GuardClauses" Version="4.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Microsoft.Orleans.CodeGenerator.MSBuild" Version="3.6.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Orleans.Persistence.AdoNet" Version="3.6.0" />
+        <PackageReference Include="Microsoft.Orleans.Server" Version="3.6.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
+        <PackageReference Include="OrleansDashboard" Version="3.6.1" />
+        <PackageReference Include="Serilog.Extensions.Hosting" Version="4.2.0" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="3.3.0" />
+        <PackageReference Include="Serilog.Sinks.SpectreConsole" Version="0.1.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Hypernodes.Core\Hypernodes.Core.csproj" />
+      <ProjectReference Include="..\Hypernodes.FFMpeg.Engine\Hypernodes.FFMpeg.Engine.csproj" />
+    </ItemGroup>
+</Project>
