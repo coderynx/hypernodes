@@ -1,2 +1,2 @@
-# hypernodes
- Media processing in the cloud
+# Hypernodes
+A PoC on distributed media transcoding using Microsoft Orleans.
